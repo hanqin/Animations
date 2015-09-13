@@ -49,7 +49,7 @@
     NSInteger x = floor(bounds.origin.x / layer.tileSize.width * scale);
     NSInteger y = floor(bounds.origin.y / layer.tileSize.height * scale);
     
-    NSString* imageName = [NSString stringWithFormat:@"scene-%i-%i", y, x];
+    NSString* imageName = [NSString stringWithFormat:@"scene-%li-%li", (long)y, (long)x];
     NSString* imagePath = [[NSBundle mainBundle] pathForResource:imageName ofType:@"jpeg" inDirectory:@"scene"];
     
     NSLog(@"displaying %@, found %@", imageName, imagePath ? @"YES" : @"NO");
