@@ -34,11 +34,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mKg-N8-3I5">
-                                <rect key="frame" x="20" y="482" width="280" height="30"/>
+                                <rect key="frame" x="20" y="445" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Image"/>
                                 <connections>
                                     <action selector="changeImage:" destination="JzZ-XH-di7" eventType="touchUpInside" id="6Mm-G0-ITQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ttd-0x-zLV">
+                                <rect key="frame" x="20" y="490" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change Image with Custom Transition"/>
+                                <connections>
+                                    <action selector="changeImageWithCustomTransition:" destination="JzZ-XH-di7" eventType="touchUpInside" id="fPR-gu-l6o"/>
                                 </connections>
                             </button>
                         </subviews>

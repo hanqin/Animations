@@ -25,7 +25,31 @@
     transition.subtype = self.transitionSubTypes[arc4random() % self.transitionSubTypes.count];
     
     [self.imageView.layer addAnimation:transition forKey:nil];
+    [self showNextImage];
+}
+
+- (IBAction)changeImageWithCustomTransition:(id)sender {
+    UIGraphicsBeginImageContextWithOptions(self.imageView.bounds.size, YES, 0.0);
+    [self.imageView.layer renderInContext:UIGraphicsGetCurrentContext()];
     
+    UIImage *coverImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIImageView *coverView = [[UIImageView alloc] initWithImage:coverImage];
+    coverView.frame = self.imageView.bounds;
+    
+    [self.imageView addSubview:coverView];
+    [self showNextImage];
+    [UIView animateWithDuration:1.0 animations:^{
+        CGAffineTransform transform = CGAffineTransformMakeScale(0.01, 0.01);
+        transform = CGAffineTransformRotate(transform, M_PI_2);
+        
+        coverView.transform = transform;
+        coverView.alpha = 0.0;
+    } completion:^(BOOL finished){
+        [coverView removeFromSuperview];
+    }];
+}
+
+- (void)showNextImage {
     UIImage *currentImage = self.imageView.image;
     NSInteger index = [self.images indexOfObject:currentImage];
     index = (index + 1) % self.images.count;
