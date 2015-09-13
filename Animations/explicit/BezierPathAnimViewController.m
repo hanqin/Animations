@@ -35,7 +35,7 @@
     CALayer *shipLayer = [CALayer layer];
     shipLayer.frame = CGRectMake(0, 0, 64, 64);
     shipLayer.position = startingPoint;
-    shipLayer.contents = (__bridge id)[UIImage imageNamed:@"rocket"].CGImage;
+    shipLayer.contents = (__bridge id)[UIImage imageNamed:@"space_ship"].CGImage;
     [self.container.layer addSublayer:shipLayer];
     
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
