@@ -14,12 +14,50 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="pYf-Th-EQP" kind="relationship" relationship="rootViewController" id="OvZ-La-fXZ"/>
+                        <segue destination="JzZ-XH-di7" kind="relationship" relationship="rootViewController" id="HKl-TM-pd4"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-nS-SCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1379" y="533"/>
+        </scene>
+        <!--Transition-->
+        <scene sceneID="lmH-CB-luo">
+            <objects>
+                <viewController id="JzZ-XH-di7" customClass="TransitionAnimViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mir-Ak-74r">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="FOv-Pf-N8y">
+                                <rect key="frame" x="0.0" y="65" width="320" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mKg-N8-3I5">
+                                <rect key="frame" x="20" y="482" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Change Image"/>
+                                <connections>
+                                    <action selector="changeImage:" destination="JzZ-XH-di7" eventType="touchUpInside" id="6Mm-G0-ITQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Transition" id="XxL-8C-gCK">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="aeb-LG-hgX">
+                            <connections>
+                                <segue destination="pYf-Th-EQP" kind="push" id="LSo-BZ-0Sj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="FOv-Pf-N8y" id="Tyz-Ek-wg0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4o7-Ek-2B3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-949" y="533"/>
         </scene>
         <!--Bezier Path-->
         <scene sceneID="gmu-c3-NQ3">
@@ -33,6 +71,9 @@
                                 <rect key="frame" x="0.0" y="538" width="320" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Explicit Animation"/>
+                                <connections>
+                                    <segue destination="k7i-eE-QVf" kind="push" id="fZr-s1-jxk"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" id="jBn-KX-t8e">
                                 <rect key="frame" x="0.0" y="67" width="320" height="413"/>
@@ -49,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RuA-Db-jhr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-949" y="533"/>
+            <point key="canvasLocation" x="-1379" y="1241"/>
         </scene>
         <!--显式动画-->
         <scene sceneID="IR3-8b-Jlj">

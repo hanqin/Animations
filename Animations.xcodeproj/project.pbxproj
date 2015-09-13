@@ -22,6 +22,7 @@
 		496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4FAA1BA2B9000095CB02 /* TiledImageViewController.m */; };
 		49957DCA1BA598AD00F74CE5 /* ExplicitAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DC91BA598AD00F74CE5 /* ExplicitAnimViewController.m */; };
 		49957DCD1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */; };
+		49957DD01BA5BA2A00F74CE5 /* TransitionAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DCF1BA5BA2A00F74CE5 /* TransitionAnimViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		49957DC91BA598AD00F74CE5 /* ExplicitAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExplicitAnimViewController.m; path = explicit/ExplicitAnimViewController.m; sourceTree = "<group>"; };
 		49957DCB1BA5A9BE00F74CE5 /* BezierPathAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierPathAnimViewController.h; path = explicit/BezierPathAnimViewController.h; sourceTree = "<group>"; };
 		49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierPathAnimViewController.m; path = explicit/BezierPathAnimViewController.m; sourceTree = "<group>"; };
+		49957DCE1BA5BA2A00F74CE5 /* TransitionAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionAnimViewController.h; path = transition/TransitionAnimViewController.h; sourceTree = "<group>"; };
+		49957DCF1BA5BA2A00F74CE5 /* TransitionAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionAnimViewController.m; path = transition/TransitionAnimViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,7 @@
 				496E4F791B9E9FF00095CB02 /* Images.xcassets */,
 				496E4F7B1B9E9FF00095CB02 /* LaunchScreen.xib */,
 				496E4F6C1B9E9FF00095CB02 /* Supporting Files */,
+				49957DD11BA5BA3700F74CE5 /* transition */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -184,6 +188,15 @@
 				49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */,
 			);
 			name = explicit;
+			sourceTree = "<group>";
+		};
+		49957DD11BA5BA3700F74CE5 /* transition */ = {
+			isa = PBXGroup;
+			children = (
+				49957DCE1BA5BA2A00F74CE5 /* TransitionAnimViewController.h */,
+				49957DCF1BA5BA2A00F74CE5 /* TransitionAnimViewController.m */,
+			);
+			name = transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490E09EA1BA452DF00DF2782 /* ViewController.m in Sources */,
+				49957DD01BA5BA2A00F74CE5 /* TransitionAnimViewController.m in Sources */,
 				49957DCA1BA598AD00F74CE5 /* ExplicitAnimViewController.m in Sources */,
 				496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */,
 				49957DCD1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m in Sources */,
