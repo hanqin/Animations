@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490E09DA1BA446EC00DF2782 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490E09D91BA446EC00DF2782 /* AVFoundation.framework */; };
+		490E09E61BA4529000DF2782 /* ImplicitAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E09E51BA4529000DF2782 /* ImplicitAnimViewController.m */; };
+		490E09EA1BA452DF00DF2782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E09E81BA452DF00DF2782 /* ViewController.m */; };
+		490E09EE1BA4532700DF2782 /* RefectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E09EC1BA4532700DF2782 /* RefectionView.m */; };
+		490E09F11BA4536E00DF2782 /* scene in Resources */ = {isa = PBXBuildFile; fileRef = 490E09F01BA4536E00DF2782 /* scene */; };
+		490E09F31BA453D400DF2782 /* effect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 490E09F21BA453D400DF2782 /* effect.mp4 */; };
 		496E4F6F1B9E9FF00095CB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F6E1B9E9FF00095CB02 /* main.m */; };
 		496E4F721B9E9FF00095CB02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F711B9E9FF00095CB02 /* AppDelegate.m */; };
-		496E4F751B9E9FF00095CB02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F741B9E9FF00095CB02 /* ViewController.m */; };
 		496E4F781B9E9FF00095CB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496E4F761B9E9FF00095CB02 /* Main.storyboard */; };
 		496E4F7A1B9E9FF00095CB02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496E4F791B9E9FF00095CB02 /* Images.xcassets */; };
 		496E4F7D1B9E9FF00095CB02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496E4F7B1B9E9FF00095CB02 /* LaunchScreen.xib */; };
 		496E4F891B9E9FF00095CB02 /* AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F881B9E9FF00095CB02 /* AnimationsTests.m */; };
+		496E4F931B9EA61D0095CB02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496E4F921B9EA61D0095CB02 /* QuartzCore.framework */; };
+		496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4FAA1BA2B9000095CB02 /* TiledImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490E09D91BA446EC00DF2782 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		490E09E41BA4529000DF2782 /* ImplicitAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImplicitAnimViewController.h; path = implicit/ImplicitAnimViewController.h; sourceTree = "<group>"; };
+		490E09E51BA4529000DF2782 /* ImplicitAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImplicitAnimViewController.m; path = implicit/ImplicitAnimViewController.m; sourceTree = "<group>"; };
+		490E09E81BA452DF00DF2782 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = layers/ViewController.m; sourceTree = "<group>"; };
+		490E09E91BA452DF00DF2782 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = layers/ViewController.h; sourceTree = "<group>"; };
+		490E09EC1BA4532700DF2782 /* RefectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefectionView.m; path = views/RefectionView.m; sourceTree = "<group>"; };
+		490E09ED1BA4532700DF2782 /* RefectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefectionView.h; path = views/RefectionView.h; sourceTree = "<group>"; };
+		490E09F01BA4536E00DF2782 /* scene */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scene; path = resources/scene; sourceTree = "<group>"; };
+		490E09F21BA453D400DF2782 /* effect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = effect.mp4; path = resources/effect.mp4; sourceTree = "<group>"; };
 		496E4F691B9E9FF00095CB02 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496E4F6D1B9E9FF00095CB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496E4F6E1B9E9FF00095CB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		496E4F701B9E9FF00095CB02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		496E4F711B9E9FF00095CB02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		496E4F731B9E9FF00095CB02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		496E4F741B9E9FF00095CB02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		496E4F771B9E9FF00095CB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		496E4F791B9E9FF00095CB02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		496E4F7C1B9E9FF00095CB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		496E4F821B9E9FF00095CB02 /* AnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		496E4F871B9E9FF00095CB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496E4F881B9E9FF00095CB02 /* AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsTests.m; sourceTree = "<group>"; };
+		496E4F921B9EA61D0095CB02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		496E4FA91BA2B9000095CB02 /* TiledImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledImageViewController.h; sourceTree = "<group>"; };
+		496E4FAA1BA2B9000095CB02 /* TiledImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490E09DA1BA446EC00DF2782 /* AVFoundation.framework in Frameworks */,
+				496E4F931B9EA61D0095CB02 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +79,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490E09E31BA4525900DF2782 /* implicit */ = {
+			isa = PBXGroup;
+			children = (
+				490E09E41BA4529000DF2782 /* ImplicitAnimViewController.h */,
+				490E09E51BA4529000DF2782 /* ImplicitAnimViewController.m */,
+			);
+			name = implicit;
+			sourceTree = "<group>";
+		};
+		490E09E71BA452A700DF2782 /* layers */ = {
+			isa = PBXGroup;
+			children = (
+				490E09E81BA452DF00DF2782 /* ViewController.m */,
+				490E09E91BA452DF00DF2782 /* ViewController.h */,
+			);
+			name = layers;
+			sourceTree = "<group>";
+		};
+		490E09EB1BA452F700DF2782 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				490E09EC1BA4532700DF2782 /* RefectionView.m */,
+				490E09ED1BA4532700DF2782 /* RefectionView.h */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		490E09EF1BA4533600DF2782 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				490E09F21BA453D400DF2782 /* effect.mp4 */,
+				490E09F01BA4536E00DF2782 /* scene */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		496E4F601B9E9FF00095CB02 = {
 			isa = PBXGroup;
 			children = (
+				490E09D91BA446EC00DF2782 /* AVFoundation.framework */,
+				496E4F921B9EA61D0095CB02 /* QuartzCore.framework */,
 				496E4F6B1B9E9FF00095CB02 /* Animations */,
 				496E4F851B9E9FF00095CB02 /* AnimationsTests */,
 				496E4F6A1B9E9FF00095CB02 /* Products */,
@@ -81,10 +138,13 @@
 		496E4F6B1B9E9FF00095CB02 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				490E09EF1BA4533600DF2782 /* resources */,
+				490E09EB1BA452F700DF2782 /* views */,
+				490E09E71BA452A700DF2782 /* layers */,
+				490E09E31BA4525900DF2782 /* implicit */,
+				496E4FA81BA2B9000095CB02 /* tiled */,
 				496E4F701B9E9FF00095CB02 /* AppDelegate.h */,
 				496E4F711B9E9FF00095CB02 /* AppDelegate.m */,
-				496E4F731B9E9FF00095CB02 /* ViewController.h */,
-				496E4F741B9E9FF00095CB02 /* ViewController.m */,
 				496E4F761B9E9FF00095CB02 /* Main.storyboard */,
 				496E4F791B9E9FF00095CB02 /* Images.xcassets */,
 				496E4F7B1B9E9FF00095CB02 /* LaunchScreen.xib */,
@@ -117,6 +177,15 @@
 				496E4F871B9E9FF00095CB02 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496E4FA81BA2B9000095CB02 /* tiled */ = {
+			isa = PBXGroup;
+			children = (
+				496E4FA91BA2B9000095CB02 /* TiledImageViewController.h */,
+				496E4FAA1BA2B9000095CB02 /* TiledImageViewController.m */,
+			);
+			path = tiled;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +237,7 @@
 				TargetAttributes = {
 					496E4F681B9E9FF00095CB02 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 7JC9B7W57B;
 					};
 					496E4F811B9E9FF00095CB02 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -201,7 +271,9 @@
 			files = (
 				496E4F781B9E9FF00095CB02 /* Main.storyboard in Resources */,
 				496E4F7D1B9E9FF00095CB02 /* LaunchScreen.xib in Resources */,
+				490E09F31BA453D400DF2782 /* effect.mp4 in Resources */,
 				496E4F7A1B9E9FF00095CB02 /* Images.xcassets in Resources */,
+				490E09F11BA4536E00DF2782 /* scene in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496E4F751B9E9FF00095CB02 /* ViewController.m in Sources */,
+				490E09EA1BA452DF00DF2782 /* ViewController.m in Sources */,
+				496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */,
 				496E4F721B9E9FF00095CB02 /* AppDelegate.m in Sources */,
 				496E4F6F1B9E9FF00095CB02 /* main.m in Sources */,
+				490E09EE1BA4532700DF2782 /* RefectionView.m in Sources */,
+				490E09E61BA4529000DF2782 /* ImplicitAnimViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,9 +424,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Animations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +437,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Animations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +499,7 @@
 				496E4F8E1B9E9FF00095CB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		496E4F8F1B9E9FF00095CB02 /* Build configuration list for PBXNativeTarget "AnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +508,7 @@
 				496E4F911B9E9FF00095CB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
