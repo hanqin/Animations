@@ -14,12 +14,42 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="k7i-eE-QVf" kind="relationship" relationship="rootViewController" id="eJv-Mu-oB5"/>
+                        <segue destination="pYf-Th-EQP" kind="relationship" relationship="rootViewController" id="OvZ-La-fXZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-nS-SCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-463" y="533"/>
+            <point key="canvasLocation" x="-1379" y="533"/>
+        </scene>
+        <!--Bezier Path-->
+        <scene sceneID="gmu-c3-NQ3">
+            <objects>
+                <viewController id="pYf-Th-EQP" customClass="BezierPathAnimViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z9Y-A5-UlQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aAF-Qy-nFP">
+                                <rect key="frame" x="0.0" y="538" width="320" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Explicit Animation"/>
+                            </button>
+                            <view contentMode="scaleToFill" id="jBn-KX-t8e">
+                                <rect key="frame" x="0.0" y="67" width="320" height="413"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bezier Path" id="2LQ-DJ-jpv"/>
+                    <connections>
+                        <outlet property="container" destination="jBn-KX-t8e" id="P0k-m1-VaI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RuA-Db-jhr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-949" y="533"/>
         </scene>
         <!--显式动画-->
         <scene sceneID="IR3-8b-Jlj">
@@ -43,7 +73,7 @@
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VoP-jq-0fx">
-                                <rect key="frame" x="104" y="327" width="94" height="30"/>
+                                <rect key="frame" x="40" y="327" width="240" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Color"/>
                                 <connections>
@@ -60,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R35-Kw-4d9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="93" y="533"/>
+            <point key="canvasLocation" x="-949" y="1241"/>
         </scene>
         <!--Layers Demo-->
         <scene sceneID="tne-QT-ifu">

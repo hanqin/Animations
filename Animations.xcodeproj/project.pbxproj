@@ -21,6 +21,7 @@
 		496E4F931B9EA61D0095CB02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496E4F921B9EA61D0095CB02 /* QuartzCore.framework */; };
 		496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4FAA1BA2B9000095CB02 /* TiledImageViewController.m */; };
 		49957DCA1BA598AD00F74CE5 /* ExplicitAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DC91BA598AD00F74CE5 /* ExplicitAnimViewController.m */; };
+		49957DCD1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		496E4FAA1BA2B9000095CB02 /* TiledImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledImageViewController.m; sourceTree = "<group>"; };
 		49957DC81BA598AD00F74CE5 /* ExplicitAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplicitAnimViewController.h; path = explicit/ExplicitAnimViewController.h; sourceTree = "<group>"; };
 		49957DC91BA598AD00F74CE5 /* ExplicitAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExplicitAnimViewController.m; path = explicit/ExplicitAnimViewController.m; sourceTree = "<group>"; };
+		49957DCB1BA5A9BE00F74CE5 /* BezierPathAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierPathAnimViewController.h; path = explicit/BezierPathAnimViewController.h; sourceTree = "<group>"; };
+		49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierPathAnimViewController.m; path = explicit/BezierPathAnimViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 			children = (
 				49957DC81BA598AD00F74CE5 /* ExplicitAnimViewController.h */,
 				49957DC91BA598AD00F74CE5 /* ExplicitAnimViewController.m */,
+				49957DCB1BA5A9BE00F74CE5 /* BezierPathAnimViewController.h */,
+				49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */,
 			);
 			name = explicit;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				490E09EA1BA452DF00DF2782 /* ViewController.m in Sources */,
 				49957DCA1BA598AD00F74CE5 /* ExplicitAnimViewController.m in Sources */,
 				496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */,
+				49957DCD1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m in Sources */,
 				496E4F721B9E9FF00095CB02 /* AppDelegate.m in Sources */,
 				496E4F6F1B9E9FF00095CB02 /* main.m in Sources */,
 				490E09EE1BA4532700DF2782 /* RefectionView.m in Sources */,
