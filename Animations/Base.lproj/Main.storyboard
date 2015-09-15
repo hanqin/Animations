@@ -77,7 +77,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aAF-Qy-nFP">
                                 <rect key="frame" x="0.0" y="538" width="320" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <state key="normal" title="Explicit Animation"/>
                                 <connections>
                                     <segue destination="k7i-eE-QVf" kind="push" id="fZr-s1-jxk"/>
@@ -85,9 +85,25 @@
                             </button>
                             <view contentMode="scaleToFill" id="jBn-KX-t8e">
                                 <rect key="frame" x="0.0" y="67" width="320" height="413"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gbJ-de-ije">
+                                <rect key="frame" x="26" y="506" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startAnimation:" destination="pYf-Th-EQP" eventType="touchUpInside" id="lKz-Qj-MCL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zCw-yD-kRI">
+                                <rect key="frame" x="244" y="506" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopAnimation:" destination="pYf-Th-EQP" eventType="touchUpInside" id="852-iP-fBL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
