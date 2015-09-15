@@ -14,12 +14,53 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="JzZ-XH-di7" kind="relationship" relationship="rootViewController" id="HKl-TM-pd4"/>
+                        <segue destination="uxx-RX-BEA" kind="relationship" relationship="rootViewController" id="zz2-Bo-d6X"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-nS-SCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1379" y="533"/>
+        </scene>
+        <!--Media Timing-->
+        <scene sceneID="TXc-UT-n6m">
+            <objects>
+                <viewController id="uxx-RX-BEA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hjT-Rv-GUf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="pfM-sK-krK">
+                                <rect key="frame" x="0.0" y="66" width="240" height="502"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="sXX-aU-a4W">
+                                <rect key="frame" x="234" y="148" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="pym-HR-s9y">
+                                <rect key="frame" x="234" y="363" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kJb-fU-rQk">
+                                <rect key="frame" x="262" y="518" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Media Timing" id="d6H-eG-qlJ">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="eeL-eF-hg2">
+                            <connections>
+                                <segue destination="JzZ-XH-di7" kind="push" id="fOP-HR-JrZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PZ3-yh-ykH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-949" y="533"/>
         </scene>
         <!--Transition-->
         <scene sceneID="lmH-CB-luo">
@@ -65,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4o7-Ek-2B3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-949" y="533"/>
+            <point key="canvasLocation" x="-463" y="533"/>
         </scene>
         <!--Bezier Path-->
         <scene sceneID="gmu-c3-NQ3">
