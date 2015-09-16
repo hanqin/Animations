@@ -13,6 +13,7 @@
 		490E09EE1BA4532700DF2782 /* RefectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E09EC1BA4532700DF2782 /* RefectionView.m */; };
 		490E09F11BA4536E00DF2782 /* scene in Resources */ = {isa = PBXBuildFile; fileRef = 490E09F01BA4536E00DF2782 /* scene */; };
 		490E09F31BA453D400DF2782 /* effect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 490E09F21BA453D400DF2782 /* effect.mp4 */; };
+		491D0FC41BA9BE170078A55A /* MediaTimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D0FC31BA9BE170078A55A /* MediaTimingViewController.m */; settings = {ASSET_TAGS = (); }; };
 		496E4F6F1B9E9FF00095CB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F6E1B9E9FF00095CB02 /* main.m */; };
 		496E4F721B9E9FF00095CB02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F711B9E9FF00095CB02 /* AppDelegate.m */; };
 		496E4F781B9E9FF00095CB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496E4F761B9E9FF00095CB02 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 		490E09ED1BA4532700DF2782 /* RefectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefectionView.h; path = views/RefectionView.h; sourceTree = "<group>"; };
 		490E09F01BA4536E00DF2782 /* scene */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scene; path = resources/scene; sourceTree = "<group>"; };
 		490E09F21BA453D400DF2782 /* effect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = effect.mp4; path = resources/effect.mp4; sourceTree = "<group>"; };
+		491D0FC21BA9BE170078A55A /* MediaTimingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaTimingViewController.h; path = control/MediaTimingViewController.h; sourceTree = "<group>"; };
+		491D0FC31BA9BE170078A55A /* MediaTimingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaTimingViewController.m; path = control/MediaTimingViewController.m; sourceTree = "<group>"; };
 		496E4F691B9E9FF00095CB02 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496E4F6D1B9E9FF00095CB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496E4F6E1B9E9FF00095CB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +108,15 @@
 			name = resources;
 			sourceTree = "<group>";
 		};
+		491D0FC51BA9BE260078A55A /* control */ = {
+			isa = PBXGroup;
+			children = (
+				491D0FC21BA9BE170078A55A /* MediaTimingViewController.h */,
+				491D0FC31BA9BE170078A55A /* MediaTimingViewController.m */,
+			);
+			name = control;
+			sourceTree = "<group>";
+		};
 		496E4F601B9E9FF00095CB02 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +152,7 @@
 				496E4F7B1B9E9FF00095CB02 /* LaunchScreen.xib */,
 				496E4F6C1B9E9FF00095CB02 /* Supporting Files */,
 				49957DD11BA5BA3700F74CE5 /* transition */,
+				491D0FC51BA9BE260078A55A /* control */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -277,6 +290,7 @@
 				49957DCA1BA598AD00F74CE5 /* ExplicitAnimViewController.m in Sources */,
 				496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */,
 				49957DCD1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m in Sources */,
+				491D0FC41BA9BE170078A55A /* MediaTimingViewController.m in Sources */,
 				496E4F721B9E9FF00095CB02 /* AppDelegate.m in Sources */,
 				496E4F6F1B9E9FF00095CB02 /* main.m in Sources */,
 				490E09EE1BA4532700DF2782 /* RefectionView.m in Sources */,
