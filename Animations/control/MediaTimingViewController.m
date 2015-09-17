@@ -33,6 +33,7 @@
     animation.rotationMode = kCAAnimationRotateAuto;
     animation.removedOnCompletion = NO;
     animation.fillMode = kCAFillModeRemoved;
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseInEaseOut]];
     [self.shipLayer addAnimation:animation forKey:@"slide"];
 }
 
