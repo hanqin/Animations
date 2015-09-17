@@ -38,8 +38,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGAffineTransform transform = CGAffineTransformMakeScale(0.9, 0.9);
-    self.path = CGPathCreateWithEllipseInRect(self.containerView.bounds, &transform);
+    self.path = CGPathCreateWithEllipseInRect(self.containerView.bounds, nil);
     
     CAShapeLayer *pathLayer = [CAShapeLayer layer];
     pathLayer.path = self.path;
@@ -59,9 +58,9 @@
 
 - (IBAction)updateSliders: (id)sender {
     CFTimeInterval timeOffset = self.timeOffsetSlider.value;
-    self.timeOffsetLabel.text = [NSString stringWithFormat:@"%0.2f", timeOffset];
+    self.timeOffsetLabel.text = [NSString stringWithFormat:@"TimeOffset: %0.2f", timeOffset];
     float speed = self.speedSlider.value;
-    self.speedLabel.text = [NSString stringWithFormat:@"%0.2f", speed];
+    self.speedLabel.text = [NSString stringWithFormat:@"Speed: %0.2f", speed];
 }
 
 - (void)didReceiveMemoryWarning {
