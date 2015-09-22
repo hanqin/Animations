@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="WqX-k6-nES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="WqX-k6-nES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -14,12 +14,50 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="uxx-RX-BEA" kind="relationship" relationship="rootViewController" id="zz2-Bo-d6X"/>
+                        <segue destination="cNt-zU-Pqa" kind="relationship" relationship="rootViewController" id="3QI-re-UdL"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-nS-SCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1379" y="533"/>
+        </scene>
+        <!--Media Timing Function-->
+        <scene sceneID="Mgo-gV-Ijb">
+            <objects>
+                <viewController id="cNt-zU-Pqa" customClass="MediaTimingFunctionsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n6p-Kx-l1g">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="o1j-0v-fOg">
+                                <rect key="frame" x="0.0" y="159" width="320" height="248"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball" id="WnL-cx-L2C">
+                                        <rect key="frame" x="128" y="32" width="64" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Media Timing Function" id="wYa-t2-Nw4">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="6Vf-QK-yVg">
+                            <connections>
+                                <segue destination="uxx-RX-BEA" kind="push" id="ZBc-Ph-Dif"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ballView" destination="WnL-cx-L2C" id="ZFj-go-ano"/>
+                        <outlet property="containerView" destination="o1j-0v-fOg" id="o2e-bX-Zad"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cg8-Df-dyS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-949" y="533"/>
         </scene>
         <!--Media Timing-->
         <scene sceneID="TXc-UT-n6m">
@@ -90,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PZ3-yh-ykH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-949" y="533"/>
+            <point key="canvasLocation" x="-463" y="533"/>
         </scene>
         <!--Transition-->
         <scene sceneID="lmH-CB-luo">
@@ -136,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4o7-Ek-2B3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-463" y="533"/>
+            <point key="canvasLocation" x="93" y="533"/>
         </scene>
         <!--Bezier Path-->
         <scene sceneID="gmu-c3-NQ3">
@@ -345,6 +383,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ball" width="64" height="64"/>
         <image name="jay" width="96" height="84"/>
     </resources>
 </document>

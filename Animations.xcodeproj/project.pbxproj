@@ -14,6 +14,7 @@
 		490E09F11BA4536E00DF2782 /* scene in Resources */ = {isa = PBXBuildFile; fileRef = 490E09F01BA4536E00DF2782 /* scene */; };
 		490E09F31BA453D400DF2782 /* effect.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 490E09F21BA453D400DF2782 /* effect.mp4 */; };
 		491D0FC41BA9BE170078A55A /* MediaTimingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491D0FC31BA9BE170078A55A /* MediaTimingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		496959A71BB19FF300188EDE /* MediaTimingFunctionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496959A61BB19FF300188EDE /* MediaTimingFunctionsViewController.m */; settings = {ASSET_TAGS = (); }; };
 		496E4F6F1B9E9FF00095CB02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F6E1B9E9FF00095CB02 /* main.m */; };
 		496E4F721B9E9FF00095CB02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496E4F711B9E9FF00095CB02 /* AppDelegate.m */; };
 		496E4F781B9E9FF00095CB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496E4F761B9E9FF00095CB02 /* Main.storyboard */; };
@@ -30,7 +31,7 @@
 		490E09D91BA446EC00DF2782 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		490E09E41BA4529000DF2782 /* ImplicitAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImplicitAnimViewController.h; path = implicit/ImplicitAnimViewController.h; sourceTree = "<group>"; };
 		490E09E51BA4529000DF2782 /* ImplicitAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImplicitAnimViewController.m; path = implicit/ImplicitAnimViewController.m; sourceTree = "<group>"; };
-		490E09E81BA452DF00DF2782 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = layers/ViewController.m; sourceTree = "<group>"; };
+		490E09E81BA452DF00DF2782 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = ViewController.m; path = layers/ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		490E09E91BA452DF00DF2782 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = layers/ViewController.h; sourceTree = "<group>"; };
 		490E09EC1BA4532700DF2782 /* RefectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RefectionView.m; path = views/RefectionView.m; sourceTree = "<group>"; };
 		490E09ED1BA4532700DF2782 /* RefectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RefectionView.h; path = views/RefectionView.h; sourceTree = "<group>"; };
@@ -38,6 +39,8 @@
 		490E09F21BA453D400DF2782 /* effect.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = effect.mp4; path = resources/effect.mp4; sourceTree = "<group>"; };
 		491D0FC21BA9BE170078A55A /* MediaTimingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaTimingViewController.h; path = control/MediaTimingViewController.h; sourceTree = "<group>"; };
 		491D0FC31BA9BE170078A55A /* MediaTimingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaTimingViewController.m; path = control/MediaTimingViewController.m; sourceTree = "<group>"; };
+		496959A51BB19FF300188EDE /* MediaTimingFunctionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaTimingFunctionsViewController.h; path = control/MediaTimingFunctionsViewController.h; sourceTree = "<group>"; };
+		496959A61BB19FF300188EDE /* MediaTimingFunctionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MediaTimingFunctionsViewController.m; path = control/MediaTimingFunctionsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		496E4F691B9E9FF00095CB02 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496E4F6D1B9E9FF00095CB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		496E4F6E1B9E9FF00095CB02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,7 +57,7 @@
 		49957DC81BA598AD00F74CE5 /* ExplicitAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplicitAnimViewController.h; path = explicit/ExplicitAnimViewController.h; sourceTree = "<group>"; };
 		49957DC91BA598AD00F74CE5 /* ExplicitAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExplicitAnimViewController.m; path = explicit/ExplicitAnimViewController.m; sourceTree = "<group>"; };
 		49957DCB1BA5A9BE00F74CE5 /* BezierPathAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierPathAnimViewController.h; path = explicit/BezierPathAnimViewController.h; sourceTree = "<group>"; };
-		49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierPathAnimViewController.m; path = explicit/BezierPathAnimViewController.m; sourceTree = "<group>"; };
+		49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = BezierPathAnimViewController.m; path = explicit/BezierPathAnimViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		49957DCE1BA5BA2A00F74CE5 /* TransitionAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionAnimViewController.h; path = transition/TransitionAnimViewController.h; sourceTree = "<group>"; };
 		49957DCF1BA5BA2A00F74CE5 /* TransitionAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionAnimViewController.m; path = transition/TransitionAnimViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +116,8 @@
 			children = (
 				491D0FC21BA9BE170078A55A /* MediaTimingViewController.h */,
 				491D0FC31BA9BE170078A55A /* MediaTimingViewController.m */,
+				496959A51BB19FF300188EDE /* MediaTimingFunctionsViewController.h */,
+				496959A61BB19FF300188EDE /* MediaTimingFunctionsViewController.m */,
 			);
 			name = control;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				490E09EA1BA452DF00DF2782 /* ViewController.m in Sources */,
+				496959A71BB19FF300188EDE /* MediaTimingFunctionsViewController.m in Sources */,
 				49957DD01BA5BA2A00F74CE5 /* TransitionAnimViewController.m in Sources */,
 				49957DCA1BA598AD00F74CE5 /* ExplicitAnimViewController.m in Sources */,
 				496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */,
