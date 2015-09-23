@@ -14,12 +14,12 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="cNt-zU-Pqa" kind="relationship" relationship="rootViewController" id="3QI-re-UdL"/>
+                        <segue destination="TSS-I8-GLN" kind="relationship" relationship="rootViewController" id="zhg-w5-rib"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yuc-nS-SCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1379" y="533"/>
+            <point key="canvasLocation" x="-1379" y="-132"/>
         </scene>
         <!--Media Timing Function-->
         <scene sceneID="Mgo-gV-Ijb">
@@ -91,14 +91,14 @@
                                 <rect key="frame" x="20" y="509" width="151" height="21"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="R5G-bq-E3r">
                                 <rect key="frame" x="20" y="439" width="151" height="21"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" id="sXX-aU-a4W">
@@ -380,6 +380,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iqi-NL-XTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="615" y="1241"/>
+        </scene>
+        <!--CADisplayLink-->
+        <scene sceneID="I9k-t0-p7s">
+            <objects>
+                <viewController id="TSS-I8-GLN" customClass="CADisplayLinkViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mpj-13-D19">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="4JP-Si-t0s">
+                                <rect key="frame" x="0.0" y="159" width="320" height="248"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball" id="Zd3-Nd-SO7">
+                                        <rect key="frame" x="128" y="32" width="64" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="CADisplayLink" id="ju9-9g-sGn">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="QKz-ZT-q7t">
+                            <connections>
+                                <segue destination="cNt-zU-Pqa" kind="push" id="08A-py-cBe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ballView" destination="Zd3-Nd-SO7" id="MYo-aB-BDj"/>
+                        <outlet property="containerView" destination="4JP-Si-t0s" id="ClF-h3-bdR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sZA-Ak-mO4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1379" y="533"/>
         </scene>
     </scenes>
     <resources>

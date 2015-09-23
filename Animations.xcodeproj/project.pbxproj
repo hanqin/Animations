@@ -25,6 +25,7 @@
 		49957DCA1BA598AD00F74CE5 /* ExplicitAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DC91BA598AD00F74CE5 /* ExplicitAnimViewController.m */; };
 		49957DCD1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */; };
 		49957DD01BA5BA2A00F74CE5 /* TransitionAnimViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49957DCF1BA5BA2A00F74CE5 /* TransitionAnimViewController.m */; };
+		49D1D0BF1BB2EC9B005CDBD5 /* CADisplayLinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1D0BE1BB2EC9B005CDBD5 /* CADisplayLinkViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,8 @@
 		49957DCC1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = BezierPathAnimViewController.m; path = explicit/BezierPathAnimViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		49957DCE1BA5BA2A00F74CE5 /* TransitionAnimViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionAnimViewController.h; path = transition/TransitionAnimViewController.h; sourceTree = "<group>"; };
 		49957DCF1BA5BA2A00F74CE5 /* TransitionAnimViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionAnimViewController.m; path = transition/TransitionAnimViewController.m; sourceTree = "<group>"; };
+		49D1D0BD1BB2EC9B005CDBD5 /* CADisplayLinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADisplayLinkViewController.h; path = control/CADisplayLinkViewController.h; sourceTree = "<group>"; };
+		49D1D0BE1BB2EC9B005CDBD5 /* CADisplayLinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADisplayLinkViewController.m; path = control/CADisplayLinkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				491D0FC31BA9BE170078A55A /* MediaTimingViewController.m */,
 				496959A51BB19FF300188EDE /* MediaTimingFunctionsViewController.h */,
 				496959A61BB19FF300188EDE /* MediaTimingFunctionsViewController.m */,
+				49D1D0BD1BB2EC9B005CDBD5 /* CADisplayLinkViewController.h */,
+				49D1D0BE1BB2EC9B005CDBD5 /* CADisplayLinkViewController.m */,
 			);
 			name = control;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				496E4FAC1BA2B9000095CB02 /* TiledImageViewController.m in Sources */,
 				49957DCD1BA5A9BE00F74CE5 /* BezierPathAnimViewController.m in Sources */,
 				491D0FC41BA9BE170078A55A /* MediaTimingViewController.m in Sources */,
+				49D1D0BF1BB2EC9B005CDBD5 /* CADisplayLinkViewController.m in Sources */,
 				496E4F721B9E9FF00095CB02 /* AppDelegate.m in Sources */,
 				496E4F6F1B9E9FF00095CB02 /* main.m in Sources */,
 				490E09EE1BA4532700DF2782 /* RefectionView.m in Sources */,
